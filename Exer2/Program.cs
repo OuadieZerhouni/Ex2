@@ -13,9 +13,8 @@ namespace Exer2
             int[] tab= {1,9,21,23};
             Console.WriteLine("entrer lenombre : ");
             int num = int.Parse(Console.ReadLine());
-            int dim=int.Parse(Console.ReadLine());
 
-            addNum(tab, num);
+            ajoutNum(tab, num);
 
         }
         static void affich(in[] tab)
