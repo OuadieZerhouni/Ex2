@@ -46,6 +46,7 @@ namespace Exer2
                         tab[n] = tab[n - 1];
                     }
                     tab[i] = num;
+                    return;
 
                 }
             }
